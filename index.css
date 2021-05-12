@@ -1,0 +1,21 @@
+.login-container {
+    width: 100%;
+}
+
+.inner-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.input-area {
+    margin-top: 5px;
+}
+
+.reg-link {
+    color: blue;
+    cursor: pointer;
+}
+
+.reg-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+.course-table {
+    Width: 40%;
+    TEXT-ALIGN: CENTER;
+    MARGIN: 5% 0%;
+}
+
+.logout-link {
+    color: blue;
+    cursor: pointer;
+}
+
+.logout-link:hover {
+    text-decoration: underline;
+}

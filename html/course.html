@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/course.css" type="text/css">
+</head>
+
+<body onload="loadData()">
+    <div>
+        <div style="width: 100%; padding-bottom: 1%;">
+            <span style="float: right;">
+                <a onclick="logout()" class="logout-link">Logout</a>
+            </span>
+        </div>
+        <div id="buttonDiv" style="width: 100%; margin-left: 5%;">
+            <button onclick="swapTable(true)">Enrolled Courses</button>
+            <button onclick="swapTable(false)">All Courses</button>
+        </div>
+        <table id="userTable" class="course-table">
+            <tr>
+                <th>Course ID</th>
+                <th>Course Name</th>
+                <th>Enrollment ID</th>
+            </tr>
+            <tr id="userCourse">
+
+            </tr>
+        </table>
+        <table id="courseTable" class="course-table">
+            <tr>
+                <th>Course ID</th>
+                <th>Course Name</th>
+                <th>Duration</th>
+            </tr>
+            <tbody id="allCourses">
+
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="../js/course.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/register.css" type="text/css">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="inner-container">
+            <div class="input-area">
+                <input type="text" placeholder="User Name" id="userName" />
+            </div>
+            <div class="input-area">
+                <input type="password" placeholder="Password" id="password" />
+            </div>
+            <div class="input-area">
+                <select id="role">
+                    <option disabled="true" value="" selected>Select Role</option>
+                    <option value="learner">Learner</option>
+                    <option value="instructor">Instructor</option>
+                </select>
+            </div>
+            <div class="input-area">
+                <button onclick="registerUser()">Login</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../js/register.js"></script>
+</body>
+
+</html>
